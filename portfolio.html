@@ -15,35 +15,39 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container main-nav">
-        <a href="./index.html" class="header-logo link">WebStudio</a>
-        <nav class="header-nav">
-          <ul class="header-list list">
+      <div class="header__container container">
+        <a href="./index.html" class="logo header__logo link">WebStudio</a>
+        <nav class="navigation">
+          <ul class="navigation__list list">
             <li class="item-1">
-              <a href="./index.html" class="header-link link">Studio</a>
+              <a href="./index.html" class="navigation__link link">Studio</a>
             </li>
             <li class="item-2">
-              <a href="" class="header-link link current">Portfolio</a>
+              <a href="" class="navigation__link link current">Portfolio</a>
             </li>
             <li class="item-3">
-              <a href="" class="header-link link">Contacts</a>
+              <a href="" class="navigation__link link">Contacts</a>
             </li>
           </ul>
         </nav>
-        <ul class="auth-nav list">
+        <ul class="authentication list">
           <li class="item-1">
-            <a href="mailto:info@devstudio.com" class="header-email link">
+            <a
+              href="mailto:info@devstudio.com"
+              class="authentication__email link"
+            >
               <svg class="icon-envelope">
                 <use href="./images/icons.svg#icon-envelope"></use></svg
               >info@devstudio.com
             </a>
           </li>
           <li class="item-2">
-            <a href="tel:+12127724150" class="header-tel link">
+            <a href="tel:+12127724150" class="authentication__tel link">
               <svg class="icon-smartphone">
                 <use href="./images/icons.svg#icon-smartphone"></use></svg
               >+1 212-772-4150
@@ -56,21 +60,21 @@
       <section class="portfolio section">
         <div class="container">
           <h2 hidden>Filter</h2>
-          <ul class="filter-list list">
+          <ul class="filter__list list">
             <li class="item">
-              <button type="button" class="filter-btn">All</button>
+              <button type="button" class="filter__btn">All</button>
             </li>
             <li class="item">
-              <button type="button" class="filter-btn">Web-sites</button>
+              <button type="button" class="filter__btn">Web-sites</button>
             </li>
             <li class="item">
-              <button type="button" class="filter-btn">Apps</button>
+              <button type="button" class="filter__btn">Apps</button>
             </li>
             <li class="item">
-              <button type="button" class="filter-btn">Design</button>
+              <button type="button" class="filter__btn">Design</button>
             </li>
             <li class="item">
-              <button type="button" class="filter-btn">Marketing</button>
+              <button type="button" class="filter__btn">Marketing</button>
             </li>
           </ul>
         </div>
@@ -78,9 +82,9 @@
           <h2 hidden>Our products</h2>
           <ul class="our-products list">
             <li class="item">
-              <div class="our-products-overlay">
+              <div class="overlay">
                 <img src="./images/img_1.jpg" alt="our products" width="370" />
-                <p class="overlay-text">
+                <p class="overlay__text">
                   Technoduck is a state-of-the-art coronavirus distribution
                   platform. Companies use this platform for digital espionage
                   and attacks on competitors' secure servers.
@@ -92,9 +96,9 @@
               </div>
             </li>
             <li class="item">
-              <div class="our-products-overlay">
+              <div class="overlay">
                 <img src="./images/img_2.jpg" alt="our products" width="370" />
-                <p class="overlay-text">
+                <p class="overlay__text">
                   Technoduck is a state-of-the-art coronavirus distribution
                   platform. Companies use this platform for digital espionage
                   and attacks on competitors' secure servers.
@@ -108,9 +112,9 @@
               </div>
             </li>
             <li class="item">
-              <div class="our-products-overlay">
+              <div class="overlay">
                 <img src="./images/img_3.jpg" alt="our products" width="370" />
-                <p class="overlay-text">
+                <p class="overlay__text">
                   Technoduck is a state-of-the-art coronavirus distribution
                   platform. Companies use this platform for digital espionage
                   and attacks on competitors' secure servers.
@@ -122,9 +126,9 @@
               </div>
             </li>
             <li class="item">
-              <div class="our-products-overlay">
+              <div class="overlay">
                 <img src="./images/img_4.jpg" alt="our products" width="370" />
-                <p class="overlay-text">
+                <p class="overlay__text">
                   Technoduck is a state-of-the-art coronavirus distribution
                   platform. Companies use this platform for digital espionage
                   and attacks on competitors' secure servers.
@@ -136,9 +140,9 @@
               </div>
             </li>
             <li class="item">
-              <div class="our-products-overlay">
+              <div class="overlay">
                 <img src="./images/img_5.jpg" alt="our products" width="370" />
-                <p class="overlay-text">
+                <p class="overlay__text">
                   Technoduck is a state-of-the-art coronavirus distribution
                   platform. Companies use this platform for digital espionage
                   and attacks on competitors' secure servers.
@@ -150,9 +154,9 @@
               </div>
             </li>
             <li class="item">
-              <div class="our-products-overlay">
+              <div class="overlay">
                 <img src="./images/img_6.jpg" alt="our products" width="370" />
-                <p class="overlay-text">
+                <p class="overlay__text">
                   Technoduck is a state-of-the-art coronavirus distribution
                   platform. Companies use this platform for digital espionage
                   and attacks on competitors' secure servers.
@@ -164,9 +168,9 @@
               </div>
             </li>
             <li class="item">
-              <div class="our-products-overlay">
+              <div class="overlay">
                 <img src="./images/img_7.jpg" alt="our products" width="370" />
-                <p class="overlay-text">
+                <p class="overlay__text">
                   Technoduck is a state-of-the-art coronavirus distribution
                   platform. Companies use this platform for digital espionage
                   and attacks on competitors' secure servers.
@@ -178,9 +182,9 @@
               </div>
             </li>
             <li class="item">
-              <div class="our-products-overlay">
+              <div class="overlay">
                 <img src="./images/img_8.jpg" alt="our products" width="370" />
-                <p class="overlay-text">
+                <p class="overlay__text">
                   Technoduck is a state-of-the-art coronavirus distribution
                   platform. Companies use this platform for digital espionage
                   and attacks on competitors' secure servers.
@@ -192,9 +196,9 @@
               </div>
             </li>
             <li class="item">
-              <div class="our-products-overlay">
+              <div class="overlay">
                 <img src="./images/img_9.jpg" alt="our products" width="370" />
-                <p class="overlay-text">
+                <p class="overlay__text">
                   Technoduck is a state-of-the-art coronavirus distribution
                   platform. Companies use this platform for digital espionage
                   and attacks on competitors' secure servers.
@@ -210,9 +214,9 @@
       </section>
     </main>
     <footer>
-      <div class="footer container">
-        <div class="footer-part">
-          <a href="./index.html" class="header-logo link">WebStudio</a>
+      <div class="footer__container container">
+        <div class="footer__block">
+          <a href="./index.html" class="logo link">WebStudio</a>
           <address>
             <ul class="list">
               <li>
@@ -220,72 +224,70 @@
                   href="https://goo.gl/maps/XuMrEkziMi7JMsam8"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                  class="address-link link"
+                  class="address__link link"
                 >
                   695 Park Ave, New York, NY 10065,<br />
                   United States</a
                 >
               </li>
               <li>
-                <a href="mailto:info@devstudio.com" class="footer-link link"
+                <a href="mailto:info@devstudio.com" class="mail__link link"
                   >info@devstudio.com</a
                 >
               </li>
               <li>
-                <a href="tel:+12127724150" class="footer-link link"
+                <a href="tel:+12127724150" class="tel__link link"
                   >+1 212-772-4150</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-part">
-          <h3 class="footer-heading">Find us on</h3>
-          <ul class="soc-list list">
+        <div class="footer__block">
+          <h3 class="footer__heading">Find us on</h3>
+          <ul class="social list">
             <li>
-              <a href="#" class="link footer-soc-link" aria-label="instagram"
-                ><svg class="soc-link-icon" width="20" height="20">
+              <a href="#" class="link soc-link" aria-label="instagram"
+                ><svg class="soc-link__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use></svg
               ></a>
             </li>
             <li>
-              <a href="#" class="link footer-soc-link" aria-label="twitter"
-                ><svg class="soc-link-icon" width="20" height="20">
+              <a href="#" class="link soc-link" aria-label="twitter"
+                ><svg class="soc-link__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use></svg
               ></a>
             </li>
             <li>
-              <a href="#" class="link footer-soc-link" aria-label="facebook"
-                ><svg class="soc-link-icon" width="20" height="20">
+              <a href="#" class="link soc-link" aria-label="facebook"
+                ><svg class="soc-link__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use></svg
               ></a>
             </li>
             <li>
-              <a href="#" class="link footer-soc-link" aria-label="linkedin"
-                ><svg class="soc-link-icon" width="20" height="20">
+              <a href="#" class="link soc-link" aria-label="linkedin"
+                ><svg class="soc-link__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use></svg
               ></a>
             </li>
           </ul>
         </div>
-        <form class="footer-form">
-          <div class="footer-form-thumb">
-            <label for="email" class="footer-form-label">
-              <span class="footer-text-label"
-                >Subscribe to the newsletter</span
-              ></label
+        <form class="footer__form">
+          <div class="thumb">
+            <label for="email" class="form__label">
+              <span class="form__text">Subscribe to the newsletter</span></label
             >
             <input
               type="email"
               name="email"
               placeholder="E-mail"
-              class="form-input"
+              class="form__input"
               id="email"
             />
 
-            <button type="submit" class="footer-submit-button">
+            <button type="submit" class="form__submit-btn">
               Subscribe
-              <svg class="icon-send" width="24" height="24">
+              <svg class="form__icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
